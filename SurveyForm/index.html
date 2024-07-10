@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">    
+     <title>Job Search</title>
+</head>
+<body>
+    <h1>Job Search<span class="small-text">.com</span></h1>
+    <h2 class="subheader">Create Your Account</h2>
+    <p class="required-info">* Required information</p>
+
+
+
+    <h2 class="h2">Basic Information</h2> 
+            <label class="label-input" type="email">Email</label> 
+            <span class="required-star">*</span>
+            <input class="input"  name ="Email" type="email" />   
+           
+            <br>
+            <label class="label-input" type="password">password</label> 
+            <span class="required-star">*</span>
+            <input class="input"  name ="Pass" type="password" />
+            <br>
+            <label class="label-input" type="password">Retypepassword</label>
+            <span class="required-star">*</span> 
+            <input class="input"  name ="Pass" type="password" />
+            <br>
+            <label class="label-input" type="Name">FirstName</label> 
+            <span class="required-star">*</span>
+            <input class="input" name =" First Name" type="Name" />
+            <br>
+            <label class="label-input" type="Name">LastName</label>
+            <span class="required-star">*</span> 
+            <input class="input" name ="Last Name" type="Name" />
+            <br>
+            <label class="label-input" type="Phone">PhoneNumber</label>
+            <span class="required-star">*</span> 
+            <input class="input" name ="Phone Number" type="Phone" />
+            <br>
+            <label class="label-input" type="Address">Address</label> 
+            <span class="required-star">*</span>
+            <input class="input" name ="Address" type="Address" /> 
+            <br>
+            <label class="label-input" type="City">City</label>
+            <span class="required-star">*</span> 
+            <input class="input" name ="City" type="City" />
+            <br>
+            <label class="label-input" type="Province">Province</label>
+            <span class="required-star">*</span> 
+            <select id="province" name="Province">
+                <option value="province1">Province 1</option>
+                <option value="province2">Province 2</option>
+                <option value="province3">Province 3</option>
+            </select>
+            <br>
+            <label class="label-input" type="Country">Country</label>
+            <span class="required-star">*</span> 
+            <input class="input" class="input" name ="Country" type="Country" /> 
+
+
+    <h2 class="h2">Education</h2> 
+            <label class="label-input" >School</label> 
+            <span class="required-star">*</span>
+            <input class="input" name ="School" />   
+            <br>
+            <label class="label-input">Program</label>
+            <span class="required-star">*</span> 
+            <input class="input" name ="Program"/>
+            <br>
+
+            <label class="label-input">EducationLevel</label>
+            <span class="required-star">*</span> 
+            <select id="select" name="select">
+                <option value="-select-1">-select-1</option>
+                <option value="-select-2">-select- 2</option>
+                <option value="-select-3">-select- 3</option>
+            </select>
+            <br>
+                <label  class="label-input"></label>
+                <span class="required-star">*</span> 
+                <fieldset class="education-status-container">
+                    <legend calss="input">Education Status</legend>
+                    <label class="radio-label">
+                        <input type="radio" name="educationStatus" value="graduate"> Graduate
+                    </label>
+                    <br>
+                    <label class="radio-label">
+                        <input type="radio" name="educationStatus" value="current enrolled"> Current Enrolled
+                    </label>
+                    <br>
+                    <label class="radio-label">
+                        <input type="radio" name="educationStatus" value="did not graduate"> Did Not Graduate
+                    </label>
+                </fieldset>          
+            <br>
+            <label class="label-input">GraduationDate</label>
+            <span class="required-star">*</span> 
+            <input  class="input" name ="GraduationDate"/>
+
+
+
+    <h2 class="h2">Work Experlence</h2> 
+
+
+    <br>
+    <label class="label-input">Employer</label>
+    <span class="required-star">*</span> 
+    <input class="input" name =">Employer"/>
+    <br>
+    <label class="label-input">JobTitle</label>
+    <span class="required-star">*</span> 
+    <input class="input" name ="JobTitle"/>
+    <br> 
+    <label class="label-input" for="JobDuly">JobDuly</label>
+    <span class="required-star">*</span> 
+    <textarea class="input" id="JobDuly" name="JobDuly" rows="4" cols="50"></textarea>
+    <br>
+    <label class="label-input">WorkedYear</label>
+    <span class="required-star">*</span> 
+        <input class="input" id="workedYearInput" name="WorkedYear" type="number" min="1960" step="1">
+              
+<h2 class="h2">Attachments</h2>
+    <label class="label-input" for="attachment">Attachments</label>
+    <span class="required-star">*</span>
+    <input id="attachment" name="Attachments" type="file" />
+
+
+
+
+    <div class="button-container">
+        <button class="btn apply-btn">Apply</button>
+        <button class="btn reset-btn">Reset</button>
+    </div>
+            
+
+</body>
+<script src ="script.js"></script>
+</html>

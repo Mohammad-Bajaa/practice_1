@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+table,th,td {
+    border: 1px solid rgb(243, 237, 237);
+    text-align: center;
+
+}
+.small-text {
+    font-size: 60%;
+    
+}
+
+h1 {
+
+    background-color: rgb(170, 14, 14);
+    color: white;
+    
+    margin: 0;
+    padding: 10px;
+
+}
+
+
+.subheader {
+    color: black;
+    font-size: 22px;
+    text-align:0;
+    margin-top: 5px;
+}
+.required-info {
+    color: red;
+    font-size: 14px; 
+    text-align: 0;
+    margin-top: 30px; 
+}
+
+
+
+.h2 {
+    font-size: 22px;
+    text-align: 0;
+    margin-top: 60px;
+    background-color: silver;
+    padding: 0px; 
+}
+    .label-input {
+        text-align: center;
+        display: inline-block;
+        width: 150px;
+       text-align:right;
+        margin-right:50px;
+        margin-top: 10px;  
+        margin-bottom: 10px;
+        
+      
+        }
+
+
+.required-star {
+    color: red;
+    margin-left: 5px;
+    display: inline-block;
+}
+.required-star.hide {
+    display:none;
+}
+    
+#province{
+   width:300px;
+}
+    
+#select{
+   width: 300px;
+}
+
+
+
+
+
+
+.education-status-container {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin-top: 10px;
+    width:300px;
+    margin-right: 5px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+   
+}
+
+input[type="radio"] {
+    margin-right: 7px;
+}
+
+.required-star {
+    color: red;
+    margin-left: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="date"], select {
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+input[type="file"] {
+    margin-top: 10px;
+
+}
+
+
+.button-container {
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius:50px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor:alias;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input{
+
+    width: 300px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ccc;
+    border-radius: 8px; 
+    padding: 5px; 
+} 
+.input-controls {
+    position:fixed;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.increment-btn,
+.decrement-btn {
+    padding: 5px 10px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.increment-btn:hover,
+.decrement-btn:hover {
+    background-color: #aaa;
+}
