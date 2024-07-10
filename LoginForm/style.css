@@ -1,0 +1,64 @@
+*{
+    font-family: Roboto;
+}
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: auto;
+    margin-top: 214px;
+  }
+  
+
+  form {
+    width:100%;
+    border-color: #145894;
+   
+
+  }
+  
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+  }
+  
+  /* Style the checkbox */
+  input[type="checkbox"] {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the terms and conditions link */
+  a {
+    color: #2899FF;
+    text-decoration: none;
+  }
+ button
+ {
+    width: 300px;
+    height: 30px;
+    background-color: #2899FF;
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    
+ }
+ p{
+    margin-left: 73px;
+
+ }
